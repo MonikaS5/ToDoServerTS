@@ -11,7 +11,7 @@ const TodoModel = require("./models/todoList")
 dotenv.config();
 var app = express();
 app.use(cors({
-    origin:'http://localhost:3000',
+    origin:'https://lucent-kelpie-112227.netlify.app/',
 }
     
 ));
